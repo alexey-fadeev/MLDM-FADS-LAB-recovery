@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../CSS/DM 1.css">
+		<script src= "../JS/DM 1.js"></script>
+		<title>Лабораторная работа 1 ДМ</title>
+	</head>
+	<body>
+		<h1>Дискретная математика</h1>
+		<h2>Лабораторная работа 1</h2>
+		<form onsubmit="functions();return false;">
+			<div>
+				Множество 1:<input type="text" id='FirstArray' size=40
+				pattern="([02468][13579][1-9][1-9]\s{0,1}){1,}"
+				required	
+				placeholder="Введите данные в формате ijcc">
+			</div>
+			<div>
+				<p>Множество 2:<input type="text" id='SecondArray' size=40
+				pattern="([02468][13579][1-9][1-9]\s{0,1}){1,}"
+				required	
+				placeholder="Введите данные в формате ijcc"></p>
+				<input type="submit"value="Выполнить действия">
+			</div>
+		</form>
+	</body>
+</html>
