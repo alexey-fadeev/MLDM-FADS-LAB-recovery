@@ -79,7 +79,8 @@ function transit() {
 	return document.getElementById('transit').innerHTML = 'Матрица транзитивна' + '\n';
 }
 function mainF() {
-	matrxInp();
+	let r = matrxInp();
+	if (r) return 0;
 	simm();
 	antySimm();
 	reflex();
